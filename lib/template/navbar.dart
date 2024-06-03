@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tm/homepage.dart';
-import 'package:flutter_tm/profile.dart';
-import 'package:flutter_tm/list_dokter.dart';
+import 'package:Sproutlings/homepage.dart';
+import 'package:Sproutlings/profile.dart';
+import 'package:Sproutlings/list_dokter.dart';
 // import 'package:flutter_tm/list_konsultasi.dart';
-import 'package:flutter_tm/menu.dart';
-
+import 'package:Sproutlings/menu.dart';
 
 class CustomNavBar extends StatelessWidget {
   @override
@@ -13,64 +12,72 @@ class CustomNavBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          TextButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => HomePage()),
-              );
-            },
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Icon(Icons.home, color: Colors.black),
-                Text('Home', style: TextStyle(color: Colors.black)),
-              ],
+          Expanded(
+            child: TextButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePage()),
+                );
+              },
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.home, size: 24, color: Colors.black),
+                  Text('Home', style: TextStyle(fontSize: 12, color: Colors.black)),
+                ],
+              ),
             ),
           ),
-          TextButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => ThreeCardsPage()), // Correct navigation to ThreeCardsPage
-              );
-            },
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Icon(Icons.receipt, color: Colors.black),
-                Text('Resep', style: TextStyle(color: Colors.black)),
-              ],
+          Expanded(
+            child: TextButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ThreeCardsPage()),
+                );
+              },
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.receipt, size: 24, color: Colors.black),
+                  Text('Resep', style: TextStyle(fontSize: 12, color: Colors.black)),
+                ],
+              ),
             ),
           ),
-          TextButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => ListDokter()), // Pastikan ini mengarah ke ListDokter
-              );
-            },
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Icon(Icons.chat, color: Colors.black),
-                Text('Konsultasi', style: TextStyle(color: Colors.black)),
-              ],
+          Expanded(
+            child: TextButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ListDokter()),
+                );
+              },
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.chat, size: 24, color: Colors.black),
+                  Text('Konsultasi', style: TextStyle(fontSize: 12, color: Colors.black)),
+                ],
+              ),
             ),
           ),
-          TextButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => ProfilePage()),
-              );
-            },
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Icon(Icons.person, color: Colors.black),
-                Text('Profil', style: TextStyle(color: Colors.black)),
-              ],
+          Expanded(
+            child: TextButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ProfilePage()),
+                );
+              },
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.person, size: 24, color: Colors.black),
+                  Text('Profil', style: TextStyle(fontSize: 12, color: Colors.black)),
+                ],
+              ),
             ),
           ),
         ],
@@ -78,4 +85,3 @@ class CustomNavBar extends StatelessWidget {
     );
   }
 }
-

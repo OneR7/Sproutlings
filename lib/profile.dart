@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tm/template/navbar.dart'; 
+import 'package:Sproutlings/template/navbar.dart'; 
 
 class ProfilePage extends StatelessWidget {
   @override

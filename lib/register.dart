@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tm/login_screen.dart';
+import 'package:Sproutlings/login_screen.dart';
 
 class RegisterPage extends StatefulWidget {
   @override

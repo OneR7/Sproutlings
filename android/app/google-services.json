@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929253381679",
+    "project_id": "sproutlings-dc41d",
+    "storage_bucket": "sproutlings-dc41d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929253381679:android:c4f3dbf5c9ff849d5418da",
+        "android_client_info": {
+          "package_name": "com.example.flutter_tm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRJKhpgBBa8Obt6uJbI0Um_gXOBmm3LB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

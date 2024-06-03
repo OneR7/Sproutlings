@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_tm/register.dart';
+import 'package:Sproutlings/register.dart';
 import 'package:get/get.dart';
 
 class welcome_screen extends StatelessWidget {

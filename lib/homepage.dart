@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tm/catatan_sikecil.dart';
-import 'package:flutter_tm/gizi.dart';
-import 'package:flutter_tm/template/navbar.dart';
+import 'package:Sproutlings/catatan_sikecil.dart';
+import 'package:Sproutlings/gizi.dart';
+import 'package:Sproutlings/template/navbar.dart';
 import 'tumbuh_kembang.dart';
 import 'menu.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tm/model/resep.dart';
-import 'package:flutter_tm/model/resep_api.dart';
-import 'package:flutter_tm/widget/resep_card.dart';
+import 'package:Sproutlings/model/resep.dart';
+import 'package:Sproutlings/model/resep_api.dart';
+import 'package:Sproutlings/widget/resep_card.dart';
 
 class Menu0to6 extends StatefulWidget {
   @override

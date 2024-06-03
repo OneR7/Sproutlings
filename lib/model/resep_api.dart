@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:flutter_tm/model/resep.dart';
+import 'package:Sproutlings/model/resep.dart';
 import 'package:http/http.dart' as http;
 
 class ResepApi {
